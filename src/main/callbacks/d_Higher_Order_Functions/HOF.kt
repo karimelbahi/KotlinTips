@@ -35,4 +35,3 @@ fun <T> ArrayList<T>.filterOnCondition(condition: (T,T) -> Boolean): ArrayList<T
     println("filtered data ${result}")
     return result
 }
-
